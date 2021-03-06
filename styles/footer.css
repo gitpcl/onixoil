@@ -1,0 +1,140 @@
+#footer-landing {
+    padding: 15px 0;
+    background: var(--blue);
+    height: 60px;
+}
+
+#footer-landing .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#footer-landing .content .right {
+    display: flex;
+    align-items: center;
+}
+
+#footer-landing .content .right img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+#footer-landing .content .right p {
+    color: white;
+    font-size: .8rem;
+    opacity: .7;
+    margin-right: 100px;
+}
+
+#footer-landing .content .right a {
+    color: white;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+#footer-landing .content .left ul {
+    display: flex;
+}
+
+#footer-landing .content .left ul li {
+    margin-right: 5px;
+    color: white;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+
+
+
+
+
+
+#footer-other {
+    height:300px;
+}
+
+#footer-other .footer-top {
+    background: var(--orange);
+    height: 240px;
+    color: white;
+    padding: 0 20px;
+}
+
+#footer-other .footer-top .action-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#footer-other .footer-top .action-info h2 {
+    color: var(--blue);
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+#footer-other .footer-top .action-contact {
+    padding-top: 50px;
+    text-align: right;
+}
+
+
+#footer-other .footer-top .action-contact a {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#footer-other .footer-bottom {
+    background: var(--blue);
+    height: 60px;
+    padding: 15px 20px;
+}
+
+#footer-other .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#footer-other .content .right {
+    display: flex;
+    align-items: center;
+}
+
+#footer-other .content .right img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+#footer-other .content .right p {
+    color: white;
+    font-size: .8rem;
+    opacity: .7;
+    margin-right: 100px;
+}
+
+#footer-other .content .right a {
+    color: white;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+#footer-other .content .left ul {
+    display: flex;
+}
+
+#footer-other .content .left ul li {
+    margin-right: 5px;
+    color: white;
+    font-size: .8rem;
+    opacity: .7;
+}

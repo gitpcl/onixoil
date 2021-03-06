@@ -1,0 +1,28 @@
+:root {
+    --blue: rgb(45, 56, 76);
+    --orange: rgb(232, 72, 50);
+    --gray:rgb(238, 238, 238);
+    --gray-dark:rgb(48, 48, 48);
+    --black: rgb(28, 28, 28);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--gray);
+    color: var(--gray-dark);
+    line-height: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,194 @@
+@media(max-width: 928px) {
+    header .nav {
+        background: white;
+        padding: 20px 0;
+    }
+
+    header .nav .nav-ul {
+        display:none;
+        flex-direction: column;
+        width:100%;
+    }
+
+    header .nav .hamburger {
+        display: block;
+    } 
+
+    header .nav-ul.show {
+        display: flex;
+    }
+
+    header .nav-ul li a {
+        padding: 10px 10px;
+    }
+
+    #page-landing .banner-bg .banner-content img {
+        width: 90px;
+        margin-top: 2rem;
+    }
+
+    #page-landing .banner-bg .banner-content h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    #page-landing .banner-bg .banner-content p {
+        margin: 10px 0 50px;
+    }
+
+    #page-landing .banner-bg .banner-content button {
+        width: 100%;
+    }
+
+    #page-landing .banner-bg .banner-content a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #page-landing .banner-bg a #ppe {
+        margin-top: 10px;
+        width:100%;
+    }
+
+    #page-about .banner-bg .banner-content,
+    #page-customers .banner-bg .banner-content,
+    #page-logistics .banner-bg .banner-content,
+    #page-services .banner-bg .banner-content {
+        padding: 100px 20px;
+    }
+
+    #page-about .content,
+    #page-customers .content,
+    #page-logistics .content,
+    #page-services .content {
+        width: 90%;
+    }
+
+    #page-about .content .profile {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #page-about .content .profile .profile-card {
+        height: 300px;
+    }
+
+    #page-about .content .profile-info {
+        padding: 20px 0;
+    }
+
+    #page-about .content .cards #values {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    #page-about .content .cards .card .sub-card:nth-child(1) {
+        border-radius: 5px 5px 0 0;
+        
+    }
+    
+    #page-about .content .cards .card .sub-card:nth-child(3) {
+        border-radius: 0 0 5px 5px;
+    }
+
+    #page-about .content .cards .card .sub-card h3 {
+        height: 80px;
+    }
+
+    #page-services .content .cards {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #page-services .content a:nth-child(1) {
+        background-image: linear-gradient(to bottom, rgba(45, 56, 76, 0.9), rgba(45, 56, 76, 0.73)), url('https://img1.wsimg.com/isteam/ip/cd96243d-dc35-49d7-88fd-4d76bb25a1ad/fracking_500xx500-333-0-0002.jpg/:/cr=t:7.63%25,l:0%25,w:100%25,h:84.75%25/rs=w:776,h:388,cg:true');
+        border-radius: 5px 5px 0 0;
+    }
+    
+    #page-services .content a:nth-child(7) {
+        background-image: linear-gradient(to bottom, rgba(45, 56, 76, 0.9), rgba(45, 56, 76, 0.73)), url('https://static.wixstatic.com/media/5bb71a_8b050dd1c881479d8ef596e1a1dcceba~mv2.jpg/v1/fill/w_1920,h_306,al_c,q_85,usm_0.66_1.00_0.01/5bb71a_8b050dd1c881479d8ef596e1a1dcceba~mv2.webp');
+        border-radius: 0 0 5px 5px;
+    }
+
+    #page-services .content #liftsys .sub-banner {
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+
+    #page-services .content #liftsys .cards {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #page-logistics .content .columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #customers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #page-customers .content #customers .card:nth-child(1) {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #page-customers .content #customers .card:nth-child(8) {
+        border-radius: 0 0 5px 5px;
+    }
+
+    #suppliers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer-landing {
+        height: 100px;
+    }
+
+    #footer-landing .content {
+        display: block;
+    }
+
+    #footer-landing .content .right p {
+        margin-right:0;
+    }
+
+    #footer-other {
+        height: 100px;
+    }
+
+    #footer-other .footer-top {
+        height: 300px;
+    }
+
+    #footer-other .footer-top .action-wrapper,
+    #footer-other .footer-bottom .content {
+        display: block;
+    }
+
+    #footer-other .footer-top .action-contact {
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    #footer-other .footer-bottom {
+        height: 100px;
+    }
+
+    #footer-other .content .right p {
+        margin-right:0;
+    }
+
+    #footer-other .content .left {
+        margin-top: 5px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 928px) {
+    header .nav {
+        /* max-width:1100px; */
+        margin: 0 auto;
+    }
+
+    header .nav .nav-ul .social {
+        display: none;
+    }
+
+}

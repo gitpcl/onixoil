@@ -1,0 +1,173 @@
+#page-about .banner {
+    position: relative;
+    height: 30vh;
+}
+
+#page-about .banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fnairametrics.com%2Fwp-content%2Fuploads%2F2018%2F06%2FOil-and-Gas.jpg%3Ffit%3D1600%252C1000%26ssl%3D1&f=1&nofb=1');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: grayscale(100%);
+}
+
+#page-about .banner-bg {
+    background: rgba(57, 68, 88,.9);
+    height: 30vh;
+    position: relative;
+
+    color: white;
+}
+
+#page-about .banner-bg .banner-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+#page-about .banner-bg .banner-content p {
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#page-about .banner-bg .banner-content h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+#page-about .content {
+    max-width: 1100px;
+    margin: -50px auto 50px;
+    background: white;
+    border-radius: 5px;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    box-shadow:rgb(0 0 0 / 5%) 0px 0px 23px 0px;
+    border: 1px solid rgb(24, 24, 24,.10);
+
+}
+
+#page-about .content .company {
+    margin-bottom: 30px;
+}
+
+#page-about .content .company h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#page-about .content .profile {
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    position: relative;
+}
+
+#page-about .content .profile .profile-card {
+    width: 100%;
+    border-radius: 5px;
+
+    background-image: linear-gradient(to bottom, rgba(45, 56, 76, 0.7), rgba(45, 56, 76, 0.60)), url('../assets/anthonylopes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+    box-shadow:rgb(0 0 0 / 5%) 0px 0px 23px 0px;
+    border: 1px solid rgb(24, 24, 24,.10);
+
+    color: white;
+
+    margin-bottom: 0;
+    position: relative;
+}
+
+#page-about .content .profile .profile-card-content {
+    position: absolute;
+    bottom: 20px;
+}
+
+#page-about .content .profile-info {
+    padding: 50px;
+}
+    
+
+#page-about .content .cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+hr,
+#page-about .content .cards hr {
+    opacity: 0.2;
+}
+
+#page-about .content .cards .card {
+    border-radius: 5px;
+}
+
+#page-about .content .cards .card h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: var(--orange);
+}
+
+#page-about .content .cards #values {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    box-shadow:rgb(0 0 0 / 5%) 0px 0px 23px 0px;
+    border: 1px solid rgb(24, 24, 24,.10);
+}
+
+#page-about .content .cards .card .sub-card {
+    background: var(--gray);
+    padding: 30px;
+}
+
+#page-about .content .cards .card .sub-card:hover {
+    border-bottom: 5px solid var(--orange);
+}
+
+#page-about .content .cards .card .sub-card:nth-child(1) {
+    border-radius: 5px 0 0 5px;
+    background-image: linear-gradient(to bottom, rgba(45, 56, 76, 0.9), rgba(45, 56, 76, 0.73)), url('https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+}
+
+#page-about .content .cards .card .sub-card:nth-child(2) {
+    background-image: linear-gradient(to bottom, rgba(45, 56, 76, 0.9), rgba(45, 56, 76, 0.73)), url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+}
+
+#page-about .content .cards .card .sub-card:nth-child(3) {
+    border-radius: 0 5px 5px 0;
+    background-image: linear-gradient(to bottom, rgba(45, 56, 76, 0.9), rgba(45, 56, 76, 0.73)), url('https://images.unsplash.com/photo-1489348557694-c552c1eee72d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8c2FmZXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+#page-about .content .cards .card .sub-card:nth-child(1),
+#page-about .content .cards .card .sub-card:nth-child(2),
+#page-about .content .cards .card .sub-card:nth-child(3) {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+#page-about .content .cards .card .sub-card h3 {
+    color: var(--orange);
+    font-weight: 400;
+    margin-bottom: 20px;
+    height:60px;
+}
+
+#page-about .content .cards .card .sub-card p {
+    color: white;
+}
